@@ -1,0 +1,30 @@
+baseURL: "https://mathpill.netlify.app/"
+languageCode: "ru-ru"
+title: "Mathpill"
+theme: hugo-book
+
+defaultContentLanguage: "ru"
+disablePathToLower: true
+enableGitInfo: true
+
+menu:
+  home:
+    - name: "Дискретная математика"
+      pageRef: "/docs/discrete-math/"
+      weight: 1
+
+params:
+  math: true
+  BookTheme: "auto"
+  BookFavicon: "favicon.png"
+  BookSection: /
+  BookDateFormat: "02.01.2006"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+  highlight:
+    style: base16-snazzy
