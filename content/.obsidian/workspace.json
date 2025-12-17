@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "discrete-math/induction/inequalities-proof.md",
-                "mode": "source",
+                "file": "discrete-math/induction/tasks.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "inequalities-proof"
+              "title": "tasks"
             }
           }
         ]
@@ -186,10 +186,11 @@
   },
   "active": "4dfe28950ebe6e8b",
   "lastOpenFiles": [
-    "discrete-math/induction/usage.md",
-    "discrete-math/induction/tasks.md",
-    "discrete-math/induction/definition.md",
     "discrete-math/induction/inequalities-proof.md",
+    "discrete-math/induction/usage.md",
+    "discrete-math/induction/definition.md",
+    "discrete-math/induction/tasks.md",
+    "Без названия.md",
     "discrete-math/_index.md",
     "discrete-math/1_induction/1.2_usage.md",
     "discrete-math/1_induction/tasks.md",

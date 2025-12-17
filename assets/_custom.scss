@@ -99,6 +99,10 @@ div.book-page {
 			}
 		}
 	}
+
+	.katex-display {
+		font-size: $fs-base + 2px;
+	}
 }
 
 aside.book-toc {
