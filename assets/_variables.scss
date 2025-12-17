@@ -1,0 +1,14 @@
+$fs-base: 16px;
+$fs-h3: $fs-base + 4px;
+$fs-h2: $fs-base * 2 - 4px;
+$fs-h1: $fs-base * 2 + 6px;
+$fs-title: $fs-base * 2;
+
+$color-accent: hsl(325, 100%, 33%);
+$color-accent-light: hsl(325, 64%, 56%);
+
+$main-width: 1440px;
+$aside-width: 15rem;
+$page-padding: 2rem;
+
+$footer-border-color: hsl(0, 0%, 92%);
