@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "6d26227cc277011b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a48837df17252db5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4dfe28950ebe6e8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "discrete-math/induction/inequalities-proof.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "inequalities-proof"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3c4a0d9907f0936e",
+    "type": "split",
+    "children": [
+      {
+        "id": "49fc1d864b16b6eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eff802a95e8b2763",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "07b9be6645d76dd3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "eac1a25ee2a61177",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "310c2d60283ad027",
+    "type": "split",
+    "children": [
+      {
+        "id": "f8f3902be1114d15",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8f080809e861adc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "discrete-math/1_induction/1.3_inequalities-proof.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для 1.3_inequalities-proof"
+            }
+          },
+          {
+            "id": "a8fc21ae67319cdf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "discrete-math/1_induction/1.3_inequalities-proof.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из 1.3_inequalities-proof"
+            }
+          },
+          {
+            "id": "9b19e52ca6a9335a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "6e4e34eb292b0a71",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "d9e2eff56be03844",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "discrete-math/1_induction/1.3_inequalities-proof.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура 1.3_inequalities-proof"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "bases:Создать новую базу": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "4dfe28950ebe6e8b",
+  "lastOpenFiles": [
+    "discrete-math/induction/usage.md",
+    "discrete-math/induction/tasks.md",
+    "discrete-math/induction/definition.md",
+    "discrete-math/induction/inequalities-proof.md",
+    "discrete-math/_index.md",
+    "discrete-math/1_induction/1.2_usage.md",
+    "discrete-math/1_induction/tasks.md",
+    "discrete-math/1_induction/1.3_inequalities-proof.md",
+    "symbols/_index.md",
+    "discrete-math/1_induction/1.1_definition.md"
+  ]
+}

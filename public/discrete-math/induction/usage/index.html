@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="1.2. Применение индукции#Теорема 1#Формулировка#Для $\forall n\in\mathbb{N},\ n\geq 4$: $$ 2^n\geq n^2 $$
+Доказательство#Докажем эту теорему с использованием индукции.
+Базис индукции: докажем, что $A_{4}$ верно $$ 2^4\geq 4^2 \iff 16\geq 16 $$ То есть базис индукции верен.
+Шаг индукции: Посмотрим, во сколько раз увеличиваются $2^{n}$ и $n^2$ при переходе от $n$ к $n&#43;1$. Первое – в $2$ раза, а второе – в $$ \frac{(n&#43;1)^2}{n^2}=\left( 1&#43;\frac{1}{n} \right)^2 $$ раз. При $n\geq 4$ это выражение не больше $1,25^2 &lt; 2$. Поэтому $n^2$ увеличивается меньше, чем $2^n$.
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/discrete-math/induction/usage/">
+  <meta property="og:site_name" content="Mathpill">
+  <meta property="og:title" content="1.2. Применение индукции">
+  <meta property="og:description" content="1.2. Применение индукции#Теорема 1#Формулировка#Для $\forall n\in\mathbb{N},\ n\geq 4$: $$ 2^n\geq n^2 $$
+Доказательство#Докажем эту теорему с использованием индукции.
+Базис индукции: докажем, что $A_{4}$ верно $$ 2^4\geq 4^2 \iff 16\geq 16 $$ То есть базис индукции верен.
+Шаг индукции: Посмотрим, во сколько раз увеличиваются $2^{n}$ и $n^2$ при переходе от $n$ к $n&#43;1$. Первое – в $2$ раза, а второе – в $$ \frac{(n&#43;1)^2}{n^2}=\left( 1&#43;\frac{1}{n} \right)^2 $$ раз. При $n\geq 4$ это выражение не больше $1,25^2 &lt; 2$. Поэтому $n^2$ увеличивается меньше, чем $2^n$.">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="discrete-math">
+    <meta property="article:published_time" content="2025-12-13T15:03:34+05:00">
+    <meta property="article:modified_time" content="2025-12-13T15:03:34+05:00">
+
+
+  <meta itemprop="name" content="1.2. Применение индукции">
+  <meta itemprop="description" content="1.2. Применение индукции#Теорема 1#Формулировка#Для $\forall n\in\mathbb{N},\ n\geq 4$: $$ 2^n\geq n^2 $$
+Доказательство#Докажем эту теорему с использованием индукции.
+Базис индукции: докажем, что $A_{4}$ верно $$ 2^4\geq 4^2 \iff 16\geq 16 $$ То есть базис индукции верен.
+Шаг индукции: Посмотрим, во сколько раз увеличиваются $2^{n}$ и $n^2$ при переходе от $n$ к $n&#43;1$. Первое – в $2$ раза, а второе – в $$ \frac{(n&#43;1)^2}{n^2}=\left( 1&#43;\frac{1}{n} \right)^2 $$ раз. При $n\geq 4$ это выражение не больше $1,25^2 &lt; 2$. Поэтому $n^2$ увеличивается меньше, чем $2^n$.">
+  <meta itemprop="datePublished" content="2025-12-13T15:03:34+05:00">
+  <meta itemprop="dateModified" content="2025-12-13T15:03:34+05:00">
+  <meta itemprop="wordCount" content="341">
+
+<title>1.2. Применение индукции | Mathpill</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/discrete-math/induction/usage/">
+<link rel="stylesheet" href="/book.min.0524de74d194be9faf3faf95ad2eb4e191174de51b54eef4d35e5c246cdf94ee.css" integrity="sha256-BSTedNGUvp&#43;vP6&#43;VrS604ZEXTeUbVO70015cJGzflO4=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ru.search.min.3721620fd5ebd97d543da6b23aba73cf44846449d7e93e782e6d590dd2892808.js" integrity="sha256-NyFiD9Xr2X1UPaayOrpzz0SEZEnX6T54Lm1ZDdKJKAg=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-discrete-math">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Mathpill</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Поиск"
+    aria-label="Поиск"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/symbols/" class="">
+      Используемые символы</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/extra-info/" class="">
+      Допинформация</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/" class="">
+      Дискретная математика</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/" class="">
+      1. Математическая индукция</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/definition/" class="">
+      1.1. Определение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/usage/" class="active">
+      1.2. Применение индукции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/inequalities-proof/" class="">
+      1.3. Доказательства неравенств по индукции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/tasks/" class="">
+      Задания</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>1.2. Применение индукции</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#12-применение-индукции">1.2. Применение индукции</a>
+      <ul>
+        <li><a href="#теорема-1">Теорема 1</a>
+          <ul>
+            <li><a href="#формулировка">Формулировка</a></li>
+            <li><a href="#доказательство">Доказательство</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-1">Задание 1</a>
+          <ul>
+            <li><a href="#формулировка-1">Формулировка</a></li>
+            <li><a href="#доказательство-1">Доказательство</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-2">Задание 2</a>
+          <ul>
+            <li><a href="#формулировка-2">Формулировка</a></li>
+            <li><a href="#доказательство-2">Доказательство</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><link rel="stylesheet" href="/katex/katex.min.css" /><script defer src="/katex/katex.min.js"></script><script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body, {&#34;delimiters&#34;:[{&#34;left&#34;:&#34;$$&#34;,&#34;right&#34;:&#34;$$&#34;,&#34;display&#34;:true},{&#34;left&#34;:&#34;$&#34;,&#34;right&#34;:&#34;$&#34;,&#34;display&#34;:false},{&#34;left&#34;:&#34;\\(&#34;,&#34;right&#34;:&#34;\\)&#34;,&#34;display&#34;:false},{&#34;left&#34;:&#34;\\[&#34;,&#34;right&#34;:&#34;\\]&#34;,&#34;display&#34;:true}]});"></script><h1 id="12-применение-индукции">1.2. Применение индукции<a class="anchor" href="#12-%d0%bf%d1%80%d0%b8%d0%bc%d0%b5%d0%bd%d0%b5%d0%bd%d0%b8%d0%b5-%d0%b8%d0%bd%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d0%b8">#</a></h1>
+<h2 id="теорема-1">Теорема 1<a class="anchor" href="#%d1%82%d0%b5%d0%be%d1%80%d0%b5%d0%bc%d0%b0-1">#</a></h2>
+<h3 id="формулировка">Формулировка<a class="anchor" href="#%d1%84%d0%be%d1%80%d0%bc%d1%83%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%ba%d0%b0">#</a></h3>
+<p>Для $\forall n\in\mathbb{N},\ n\geq 4$:
+$$
+2^n\geq n^2
+$$</p>
+<h3 id="доказательство">Доказательство<a class="anchor" href="#%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be">#</a></h3>
+<p>Докажем эту теорему с использованием индукции.</p>
+<ol>
+<li>
+<p><strong>Базис индукции</strong>: докажем, что $A_{4}$ верно
+$$
+2^4\geq 4^2 \iff 16\geq 16
+$$
+То есть базис индукции верен.</p>
+</li>
+<li>
+<p><strong>Шаг индукции</strong>:
+Посмотрим, во сколько раз увеличиваются $2^{n}$ и $n^2$ при переходе от $n$ к $n+1$. Первое – в $2$ раза, а второе – в
+$$
+\frac{(n+1)^2}{n^2}=\left( 1+\frac{1}{n} \right)^2
+$$
+раз. При $n\geq 4$ это выражение не больше $1,25^2 &lt; 2$. Поэтому $n^2$ увеличивается меньше, чем $2^n$.</p>
+<p>Предполагаем, что $2^n\geq n^2$.  тогда верно
+$$
+2^{n+1}=2^{n}*2\geq n^{2}*2\geq n^{2}*125^{2}\geq n^{2} \left( 1+\frac{1}{n} \right)^2=(n+1)^{2}
+$$
+То есть мы доказали шаг индукции.</p>
+</li>
+</ol>
+<p>Базис и шаг индукции доказаны $\implies$ теорема доказана.</p>
+<h2 id="задание-1">Задание 1<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-1">#</a></h2>
+<h3 id="формулировка-1">Формулировка<a class="anchor" href="#%d1%84%d0%be%d1%80%d0%bc%d1%83%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%ba%d0%b0-1">#</a></h3>
+<p>Доказать, что
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{100^2}&lt;2
+$$</p>
+<h3 id="доказательство-1">Доказательство<a class="anchor" href="#%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be-1">#</a></h3>
+<p>Кажется, какая связь с индукцией, если не задан параметр $n$? Но нужно предположить, что выбор числа $100$ не влияет на доказательство. И следует доказать, что
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{n^2}&lt;2
+$$</p>
+<p>Но если мы будем проверять шаг индукции, то надо доказывать для $A_{n+1}$, что
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{n^2}+\frac{1}{(n+1)^2}&lt;2
+$$</p>
+<p>Но как? Ведь тогда мы выходим за рамки числа $100$. Но в данном случае можно применить такой трюк как <strong>«более сильное утверждение»</strong>, а именно доказать это для
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{n^2}&lt;2-\frac{1}{n}
+$$</p>
+<p>Рассуждая по индукции, предположим, что $A&rsquo;<em>{n}$ верен, тогда надо доказать истинность $A&rsquo;</em>{n+1}$:
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{(n+1)^2}&lt;2-\frac{1}{n+1}
+$$</p>
+<p>Добавим к обоим частям $A&rsquo;_{n}$ величину $\frac{1}{(n+1)^2}$ получаем
+$$
+1+\frac{1}{2^2}+\frac{1}{3^2}+\dots+\frac{1}{(n+1)^2}&lt;2-\frac{1}{n}+\frac{1}{(n+1)^2}=
+$$
+$$
+=2-\frac{1}{n}+\frac{1}{n(n+1)}=2-\frac{1}{n+1}
+$$</p>
+<p>тем самым получается $A&rsquo;_{n+1}$. Мы доказали <strong>шаг индукции</strong>.</p>
+<h2 id="задание-2">Задание 2<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-2">#</a></h2>
+<h3 id="формулировка-2">Формулировка<a class="anchor" href="#%d1%84%d0%be%d1%80%d0%bc%d1%83%d0%bb%d0%b8%d1%80%d0%be%d0%b2%d0%ba%d0%b0-2">#</a></h3>
+<p>Доказать, что любую сумму больше или равно $8$ копеек можно выразить, используя монеты номиналом $3$ копейки и $5$ копеек.</p>
+<h3 id="доказательство-2">Доказательство<a class="anchor" href="#%d0%b4%d0%be%d0%ba%d0%b0%d0%b7%d0%b0%d1%82%d0%b5%d0%bb%d1%8c%d1%81%d1%82%d0%b2%d0%be-2">#</a></h3>
+<p>Докажем эту с использованием индукции.</p>
+<ol>
+<li>
+<p><strong>Базис индукции</strong>: $8$ можно выразить через одну монету $3$ копейки и одну монету $5$-копейки. То есть базис индукции верен.</p>
+</li>
+<li>
+<p><strong>Шаг индукции</strong>:
+Предполагаем, что $n$ копеек можно выразить как
+$$n=3a+5b,$$
+где $a$ – число монеток $3$-копейки и $b$ – число монеток $5$-копейки.</p>
+<p>Попробуем выразить $n+1$ копеек:
+$$n+1=3a+5b+1=3(a-1)+5(b-1)+8$$</p>
+<p>Так как мы знаем, что $8$ можно разложить на монеты, а значения $a$ и $b$ не влиют на результат, то шаг индукции доказан.</p>
+</li>
+</ol>
+<p>Базис и шаг индукции доказаны $\implies$ теорема доказана.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/discrete-math/induction/definition/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>1.1. Определение</span>
+      </a>
+    
+    </span>
+    <span>
+    
+      <a href="/discrete-math/induction/inequalities-proof/" class="flex align-center">
+        <span>1.3. Доказательства неравенств по индукции</span>
+        <img src="/icons/forward.svg" class="book-icon" alt="Forward" />
+      </a>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#12-применение-индукции">1.2. Применение индукции</a>
+      <ul>
+        <li><a href="#теорема-1">Теорема 1</a>
+          <ul>
+            <li><a href="#формулировка">Формулировка</a></li>
+            <li><a href="#доказательство">Доказательство</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-1">Задание 1</a>
+          <ul>
+            <li><a href="#формулировка-1">Формулировка</a></li>
+            <li><a href="#доказательство-1">Доказательство</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-2">Задание 2</a>
+          <ul>
+            <li><a href="#формулировка-2">Формулировка</a></li>
+            <li><a href="#доказательство-2">Доказательство</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

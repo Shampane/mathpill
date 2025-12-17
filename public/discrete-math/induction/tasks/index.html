@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru-ru" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Задания#Задание 1#Доказать, что для больших $n\in\mathbb{N}$ выполняется:
+$2^{n}&gt;n^{3}$ $1.001^{n}&gt;n^{2}$ $n!&gt;100^{n}$ Задание 2#На встрече компании из $15$ человек некоторые из участников пожали друг другу руки. Доказать, что не может получится так, что каждый из $15$ участников сделал $3$ рукопожатия (пожал руку трём другим).
+Подсказка#Для доказательства стоит использовать более сильное утверждение: «число участников, сделавших нечётное число рукопожатий, чётно»
+Параметр индукции считается как число рукопожатий.
+Задание 3#Пусть $f(x)$ – это последовательность Фибоначчи: $$ 1,1,2,3,5,8,13,21,24,\dots $$
+">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/discrete-math/induction/tasks/">
+  <meta property="og:site_name" content="Mathpill">
+  <meta property="og:title" content="Задания">
+  <meta property="og:description" content="Задания#Задание 1#Доказать, что для больших $n\in\mathbb{N}$ выполняется:
+$2^{n}&gt;n^{3}$ $1.001^{n}&gt;n^{2}$ $n!&gt;100^{n}$ Задание 2#На встрече компании из $15$ человек некоторые из участников пожали друг другу руки. Доказать, что не может получится так, что каждый из $15$ участников сделал $3$ рукопожатия (пожал руку трём другим).
+Подсказка#Для доказательства стоит использовать более сильное утверждение: «число участников, сделавших нечётное число рукопожатий, чётно»
+Параметр индукции считается как число рукопожатий.
+Задание 3#Пусть $f(x)$ – это последовательность Фибоначчи: $$ 1,1,2,3,5,8,13,21,24,\dots $$">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="discrete-math">
+    <meta property="article:published_time" content="2025-12-13T15:33:28+05:00">
+    <meta property="article:modified_time" content="2025-12-13T15:33:28+05:00">
+
+
+  <meta itemprop="name" content="Задания">
+  <meta itemprop="description" content="Задания#Задание 1#Доказать, что для больших $n\in\mathbb{N}$ выполняется:
+$2^{n}&gt;n^{3}$ $1.001^{n}&gt;n^{2}$ $n!&gt;100^{n}$ Задание 2#На встрече компании из $15$ человек некоторые из участников пожали друг другу руки. Доказать, что не может получится так, что каждый из $15$ участников сделал $3$ рукопожатия (пожал руку трём другим).
+Подсказка#Для доказательства стоит использовать более сильное утверждение: «число участников, сделавших нечётное число рукопожатий, чётно»
+Параметр индукции считается как число рукопожатий.
+Задание 3#Пусть $f(x)$ – это последовательность Фибоначчи: $$ 1,1,2,3,5,8,13,21,24,\dots $$">
+  <meta itemprop="datePublished" content="2025-12-13T15:33:28+05:00">
+  <meta itemprop="dateModified" content="2025-12-13T15:33:28+05:00">
+  <meta itemprop="wordCount" content="112">
+
+<title>Задания | Mathpill</title>
+<link rel="icon" href="/favicon.png" >
+<link rel="manifest" href="/manifest.json">
+<link rel="canonical" href="http://localhost:1313/discrete-math/induction/tasks/">
+<link rel="stylesheet" href="/book.min.0524de74d194be9faf3faf95ad2eb4e191174de51b54eef4d35e5c246cdf94ee.css" integrity="sha256-BSTedNGUvp&#43;vP6&#43;VrS604ZEXTeUbVO70015cJGzflO4=" crossorigin="anonymous">
+
+
+  <script defer src="/fuse.min.js"></script>
+  <script defer src="/ru.search.min.3721620fd5ebd97d543da6b23aba73cf44846449d7e93e782e6d590dd2892808.js" integrity="sha256-NyFiD9Xr2X1UPaayOrpzz0SEZEnX6T54Lm1ZDdKJKAg=" crossorigin="anonymous"></script>
+
+
+
+  
+</head>
+<body dir="ltr" class="book-kind-page book-type-discrete-math">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    
+<aside class="book-menu">
+  <div class="book-menu-content">
+    
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/"><span>Mathpill</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input id="book-search-input" type="text" 
+    placeholder="Поиск"
+    aria-label="Поиск"
+    maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/symbols/" class="">
+      Используемые символы</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/extra-info/" class="">
+      Допинформация</a>
+  
+
+          
+  <ul>
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/" class="">
+      Дискретная математика</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/" class="">
+      1. Математическая индукция</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/definition/" class="">
+      1.1. Определение</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/usage/" class="">
+      1.2. Применение индукции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/inequalities-proof/" class="">
+      1.3. Доказательства неравенств по индукции</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/discrete-math/induction/tasks/" class="active">
+      Задания</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+
+  </div>
+</aside>
+ 
+
+    <div class="book-page">
+      <header class="book-header hidden">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/icons/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Задания</h3>
+
+  <label for="toc-control">
+    
+    <img src="/icons/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#задания">Задания</a>
+      <ul>
+        <li><a href="#задание-1">Задание 1</a></li>
+        <li><a href="#задание-2">Задание 2</a>
+          <ul>
+            <li><a href="#подсказка">Подсказка</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-3">Задание 3</a></li>
+        <li><a href="#задание-4">Задание 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><link rel="stylesheet" href="/katex/katex.min.css" /><script defer src="/katex/katex.min.js"></script><script defer src="/katex/auto-render.min.js" onload="renderMathInElement(document.body, {&#34;delimiters&#34;:[{&#34;left&#34;:&#34;$$&#34;,&#34;right&#34;:&#34;$$&#34;,&#34;display&#34;:true},{&#34;left&#34;:&#34;$&#34;,&#34;right&#34;:&#34;$&#34;,&#34;display&#34;:false},{&#34;left&#34;:&#34;\\(&#34;,&#34;right&#34;:&#34;\\)&#34;,&#34;display&#34;:false},{&#34;left&#34;:&#34;\\[&#34;,&#34;right&#34;:&#34;\\]&#34;,&#34;display&#34;:true}]});"></script><h1 id="задания">Задания<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d1%8f">#</a></h1>
+<h2 id="задание-1">Задание 1<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-1">#</a></h2>
+<p>Доказать, что для больших $n\in\mathbb{N}$ выполняется:</p>
+<ul>
+<li>$2^{n}&gt;n^{3}$</li>
+<li>$1.001^{n}&gt;n^{2}$</li>
+<li>$n!&gt;100^{n}$</li>
+</ul>
+<h2 id="задание-2">Задание 2<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-2">#</a></h2>
+<p>На встрече компании из $15$ человек некоторые из участников пожали друг другу руки. Доказать, что не может получится так, что каждый из $15$ участников сделал $3$ рукопожатия (пожал руку трём другим).</p>
+<h3 id="подсказка">Подсказка<a class="anchor" href="#%d0%bf%d0%be%d0%b4%d1%81%d0%ba%d0%b0%d0%b7%d0%ba%d0%b0">#</a></h3>
+<p>Для доказательства стоит использовать более сильное утверждение: «число участников, сделавших нечётное число рукопожатий, чётно»</p>
+<p>Параметр индукции считается как число рукопожатий.</p>
+<h2 id="задание-3">Задание 3<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-3">#</a></h2>
+<p>Пусть $f(x)$ – это <strong>последовательность Фибоначчи</strong>:
+$$
+1,1,2,3,5,8,13,21,24,\dots
+$$</p>
+<p>в которой первые два числа равны $1$, а каждое следующее равно сумме двух предыдущих. То есть
+$$
+f(n)=f(n-1)+f(n-2)
+$$</p>
+<p>Доказать, что в последовательности <em>нет двух подряд идущих чётных чисел</em>.</p>
+<h2 id="задание-4">Задание 4<a class="anchor" href="#%d0%b7%d0%b0%d0%b4%d0%b0%d0%bd%d0%b8%d0%b5-4">#</a></h2>
+<p>Доказать, что $0.99^{100}\leq 0.5$</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+<div>
+
+</div>
+
+<div>
+
+</div>
+
+</div>
+
+
+
+
+
+  
+  
+  
+  <div class="flex flex-wrap justify-between">
+    <span>
+    
+      <a href="/discrete-math/induction/inequalities-proof/" class="flex align-center">
+        <img src="/icons/backward.svg" class="book-icon" alt="Backward" />
+        <span>1.3. Доказательства неравенств по индукции</span>
+      </a>
+    
+    </span>
+    <span>
+    
+    </span>
+  </div>
+  
+
+
+ 
+        
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+        
+        
+  
+ 
+        
+  
+  
+    <script>(function(){document.querySelectorAll("pre:has(code)").forEach(e=>{e.addEventListener("click",e.focus),e.addEventListener("copy",function(t){if(t.preventDefault(),navigator.clipboard){const t=window.getSelection().toString()||e.textContent;navigator.clipboard.writeText(t)}})})})()</script>
+  
+
+      </footer>
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+  
+  <aside class="book-toc">
+    <div class="book-toc-content">
+      
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#задания">Задания</a>
+      <ul>
+        <li><a href="#задание-1">Задание 1</a></li>
+        <li><a href="#задание-2">Задание 2</a>
+          <ul>
+            <li><a href="#подсказка">Подсказка</a></li>
+          </ul>
+        </li>
+        <li><a href="#задание-3">Задание 3</a></li>
+        <li><a href="#задание-4">Задание 4</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+    </div>
+  </aside>
+  
+ 
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Главная страница on Mathpill</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Главная страница on Mathpill</description>
+    <title>1. Математическая индукция on Mathpill</title>
+    <link>http://localhost:1313/discrete-math/induction/</link>
+    <description>Recent content in 1. Математическая индукция on Mathpill</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <lastBuildDate>Sat, 13 Dec 2025 16:22:58 +0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/discrete-math/induction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1.1. Определение</title>
       <link>http://localhost:1313/discrete-math/induction/definition/</link>
